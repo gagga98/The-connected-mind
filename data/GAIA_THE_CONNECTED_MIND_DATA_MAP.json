@@ -1,0 +1,1827 @@
+{
+  "schema_version": "1.0",
+  "title": "Gaia Alfieri — The Connected Mind — Data Map",
+  "guidance": {
+    "single_source_of_truth": true,
+    "skill_logic": "Origin → Skill → optional Application → Evidence",
+    "node_types": [
+      "hard",
+      "soft",
+      "knowledge",
+      "tools",
+      "project",
+      "experience"
+    ],
+    "superpowers_are_highlights_not_category": true,
+    "active_color": "#D9FF65",
+    "archive_default_sort": "relevance",
+    "archive_first_id": "italiaonline",
+    "missing_data": "Do not invent dates, results, tools or responsibilities.",
+    "edge_note": "review_required links must be validated against primary project documentation before publication."
+  },
+  "professional_areas": [
+    {
+      "id": "product",
+      "name": "Product & Innovation"
+    },
+    {
+      "id": "brand_communication",
+      "name": "Brand & Communication"
+    },
+    {
+      "id": "creative_cultural",
+      "name": "Creative & Cultural Strategy"
+    },
+    {
+      "id": "research_experience",
+      "name": "Research & Experience Design"
+    }
+  ],
+  "education": [
+    {
+      "id": "brera_ba",
+      "name": "Accademia di Belle Arti di Brera — Diploma I livello",
+      "program": "Discipline della Valorizzazione dei Beni Culturali",
+      "year": 2021,
+      "grade": "110 e Lode"
+    },
+    {
+      "id": "brera_ma",
+      "name": "Accademia di Belle Arti di Brera — Diploma II livello",
+      "program": "Comunicazione Creativa per i Beni Culturali",
+      "year": 2023,
+      "grade": "110 e Lode"
+    },
+    {
+      "id": "radar",
+      "name": "Radar Academy",
+      "program": "Master in Comunicazione Digitale e Social Media Management",
+      "year": 2025
+    }
+  ],
+  "skills": [
+    {
+      "id": "experience",
+      "name": "Experience Design",
+      "group": "hard",
+      "desc": "Progettazione di esperienze fisiche e digitali che integrano bisogni delle persone, contenuti, interazioni e contesto.",
+      "hard": [
+        "UX Design",
+        "Interaction Design",
+        "User Flow Design",
+        "Information Architecture",
+        "UX Writing",
+        "Narrative Design"
+      ],
+      "knowledge": [
+        "Interaction Design",
+        "Semiotics",
+        "Art History"
+      ],
+      "projects": [
+        "kronoscope",
+        "kids",
+        "stanze"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "content",
+      "name": "Content Strategy",
+      "group": "hard",
+      "desc": "Ideazione e organizzazione di contenuti coerenti con pubblico, obiettivi e identità del progetto.",
+      "hard": [
+        "Editorial Planning",
+        "Copywriting",
+        "Content Architecture",
+        "Digital Storytelling"
+      ],
+      "knowledge": [
+        "Digital Communication",
+        "Semiotics"
+      ],
+      "projects": [
+        "memphis",
+        "corrente",
+        "materiali"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "project",
+      "name": "Project Management",
+      "group": "hard",
+      "desc": "Pianificazione di attività, risorse, persone e priorità per trasformare un progetto in un risultato concreto.",
+      "hard": [
+        "Planning",
+        "Resource Coordination",
+        "Operational Management"
+      ],
+      "knowledge": [
+        "Cultural Heritage Management"
+      ],
+      "projects": [
+        "campus",
+        "stanze",
+        "kids"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "research",
+      "name": "Research & Analysis",
+      "group": "hard",
+      "desc": "Ricerca, selezione, verifica e interpretazione di fonti e informazioni per prendere decisioni progettuali.",
+      "hard": [
+        "Desk Research",
+        "Qualitative Analysis",
+        "Research Synthesis"
+      ],
+      "knowledge": [
+        "Art History",
+        "Semiotics"
+      ],
+      "projects": [
+        "kronoscope",
+        "versilia",
+        "memphis"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "social",
+      "name": "Social Media Management",
+      "group": "hard",
+      "desc": "Sviluppo di contenuti e rubriche per la comunicazione digitale, con attenzione al pubblico e al linguaggio del brand.",
+      "hard": [
+        "Social Content",
+        "Editorial Planning",
+        "Copywriting"
+      ],
+      "knowledge": [
+        "Social Media Strategy",
+        "Digital Communication"
+      ],
+      "projects": [
+        "corrente",
+        "kids"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "education",
+      "name": "Educational Experience Design",
+      "group": "hard",
+      "desc": "Ideazione di attività educative e laboratori che trasformano conoscenze complesse in esperienze accessibili.",
+      "hard": [
+        "Workshop Design",
+        "Learning Activities",
+        "Audience Engagement"
+      ],
+      "knowledge": [
+        "Museum Education",
+        "Art History"
+      ],
+      "projects": [
+        "kids",
+        "campus",
+        "artenatura"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "visual",
+      "name": "Visual Communication",
+      "group": "hard",
+      "desc": "Traduzione di contenuti e concetti in sistemi visivi chiari, coerenti ed espressivi.",
+      "hard": [
+        "Graphic Design",
+        "Editorial Design",
+        "Visual Storytelling"
+      ],
+      "knowledge": [
+        "Visual Culture",
+        "Art History"
+      ],
+      "projects": [
+        "stanze",
+        "artenatura",
+        "versilia"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "brand",
+      "name": "Brand Strategy",
+      "group": "hard",
+      "desc": "Analisi del posizionamento e sviluppo di proposte di comunicazione orientate a pubblici e valori del brand.",
+      "hard": [
+        "Positioning",
+        "Buyer Personas",
+        "Brand Communication"
+      ],
+      "knowledge": [
+        "Brand Identity & Strategy",
+        "Consumer Behaviour"
+      ],
+      "projects": [
+        "yamaha"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "leadership",
+      "name": "Team Coordination",
+      "group": "soft",
+      "desc": "Coordinamento operativo di persone, turni e attività in contesti dinamici.",
+      "hard": [
+        "Planning",
+        "People Coordination"
+      ],
+      "knowledge": [],
+      "projects": [
+        "campus"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "problem",
+      "name": "Creative Problem Solving",
+      "group": "soft",
+      "desc": "Capacità di analizzare vincoli, generare alternative e trovare soluzioni praticabili.",
+      "hard": [
+        "Problem Framing",
+        "Decision Making"
+      ],
+      "knowledge": [],
+      "projects": [
+        "campus",
+        "kronoscope",
+        "portfolio"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": true
+    },
+    {
+      "id": "learning",
+      "name": "Learning Agility",
+      "group": "soft",
+      "desc": "Capacità trasversale di apprendere e trasferire conoscenze tra contesti differenti.",
+      "hard": [],
+      "knowledge": [
+        "Interdisciplinary Studies"
+      ],
+      "projects": [],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": true
+    },
+    {
+      "id": "aesthetic",
+      "name": "Aesthetic Judgment",
+      "group": "soft",
+      "desc": "Sensibilità nel valutare qualità visiva, coerenza formale e linguaggi estetici, sviluppata attraverso formazione e pratica.",
+      "hard": [
+        "Visual Evaluation"
+      ],
+      "knowledge": [
+        "Art History",
+        "Visual Culture",
+        "Museology & Museography"
+      ],
+      "projects": [
+        "artenatura",
+        "stanze"
+      ],
+      "origin_ids": [
+        "brera_ba",
+        "brera_ma"
+      ],
+      "status": "skill_claim_review",
+      "superpower": true
+    },
+    {
+      "id": "systems",
+      "name": "Interdisciplinary Thinking",
+      "group": "soft",
+      "desc": "Capacità di riconoscere connessioni tra discipline e applicarle a problemi nuovi.",
+      "hard": [
+        "Systems Thinking"
+      ],
+      "knowledge": [
+        "Semiotics",
+        "Art History",
+        "Digital Communication"
+      ],
+      "projects": [
+        "kronoscope",
+        "yamaha",
+        "portfolio"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": true
+    },
+    {
+      "id": "initiative",
+      "name": "Proactivity & Initiative",
+      "group": "soft",
+      "desc": "Attitudine a proporre idee, assumersi responsabilità e avviare attività concrete.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [
+        "kids",
+        "portfolio"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": true
+    },
+    {
+      "id": "communication",
+      "name": "Communication & Collaboration",
+      "group": "soft",
+      "desc": "Comunicazione con interlocutori diversi e collaborazione in gruppi multidisciplinari.",
+      "hard": [
+        "Stakeholder Communication"
+      ],
+      "knowledge": [
+        "Public Relations"
+      ],
+      "projects": [
+        "campus",
+        "kronoscope",
+        "stanze"
+      ],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "art",
+      "name": "Art History",
+      "group": "knowledge",
+      "desc": "Conoscenza storico-artistica trasversale, senza suddivisione artificiale per epoche.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [
+        "kronoscope",
+        "versilia",
+        "memphis",
+        "artenatura"
+      ],
+      "origin_ids": [
+        "brera_ba",
+        "brera_ma"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "museology",
+      "name": "Museology & Museography",
+      "group": "knowledge",
+      "desc": "Studio e progettazione di sistemi espositivi, valorizzazione delle collezioni e relazione con il pubblico.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [
+        "stanze",
+        "versilia"
+      ],
+      "origin_ids": [
+        "brera_ba",
+        "brera_ma"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "semiotics",
+      "name": "Semiotics",
+      "group": "knowledge",
+      "desc": "Strumenti per analizzare e progettare significati, narrazioni e sistemi di valori.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [
+        "kronoscope",
+        "yamaha"
+      ],
+      "origin_ids": [
+        "brera_ma"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "multimedia",
+      "name": "Multimedia & Digital Heritage",
+      "group": "knowledge",
+      "desc": "Multimedialità applicata al patrimonio culturale.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [
+        "metaforo"
+      ],
+      "origin_ids": [
+        "brera_ma"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "architecture",
+      "name": "Architectural Heritage",
+      "group": "knowledge",
+      "desc": "Studio e valorizzazione dei beni architettonici e paesaggistici.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [
+        "biennale"
+      ],
+      "origin_ids": [
+        "brera_ba"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "webdesign",
+      "name": "Web Design",
+      "group": "knowledge",
+      "desc": "Principi di progettazione e comunicazione per il web.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [
+        "patrimonio"
+      ],
+      "origin_ids": [
+        "brera_ba"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "marketing",
+      "name": "Digital Marketing",
+      "group": "knowledge",
+      "desc": "New Marketing, Social Media Marketing, Social Media Strategy, Digital Communication & Content Marketing e Web & Social Media Advertising.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [
+        "yamaha"
+      ],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "consumer",
+      "name": "Consumer Behaviour & Neuromarketing",
+      "group": "knowledge",
+      "desc": "Modulo del Master Radar Academy dedicato al comportamento del consumatore e al neuromarketing.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "data",
+      "name": "Data Analysis",
+      "group": "knowledge",
+      "desc": "Modulo di analisi dei dati nel Master Radar Academy.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "automation",
+      "name": "AI & Marketing Automation",
+      "group": "knowledge",
+      "desc": "Modulo del Master dedicato all’intelligenza artificiale e all’automazione nel marketing.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "group": "knowledge",
+      "desc": "Fondamenti di psicologia e comprensione delle persone nel contesto progettuale.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "brera_ma"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "illustrator",
+      "name": "Adobe Illustrator",
+      "group": "tools",
+      "desc": "Strumento di progettazione grafica vettoriale utilizzato con padronanza.",
+      "hard": [
+        "Vector Design"
+      ],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [],
+      "status": "tool_familiarity_or_proficiency",
+      "superpower": false
+    },
+    {
+      "id": "indesign",
+      "name": "Adobe InDesign",
+      "group": "tools",
+      "desc": "Strumento di impaginazione e progettazione editoriale utilizzato con padronanza.",
+      "hard": [
+        "Editorial Layout"
+      ],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [],
+      "status": "tool_familiarity_or_proficiency",
+      "superpower": false
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "group": "tools",
+      "desc": "Progettazione e impaginazione di materiali visuali e presentazioni.",
+      "hard": [
+        "Visual Content"
+      ],
+      "knowledge": [],
+      "projects": [
+        "artenatura",
+        "manuale"
+      ],
+      "origin_ids": [],
+      "status": "tool_familiarity_or_proficiency",
+      "superpower": false
+    },
+    {
+      "id": "ojs",
+      "name": "Open Journal Systems",
+      "group": "tools",
+      "desc": "Gestione di contenuti e flussi editoriali della rivista Materiali di Estetica.",
+      "hard": [
+        "CMS Publishing",
+        "Editorial Workflow"
+      ],
+      "knowledge": [],
+      "projects": [
+        "materiali"
+      ],
+      "origin_ids": [],
+      "status": "tool_familiarity_or_proficiency",
+      "superpower": false
+    },
+    {
+      "id": "wix",
+      "name": "Wix",
+      "group": "tools",
+      "desc": "Piattaforma di pubblicazione e gestione di siti web.",
+      "hard": [
+        "Website Publishing"
+      ],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [],
+      "status": "tool_familiarity_or_proficiency",
+      "superpower": false
+    },
+    {
+      "id": "museum_education",
+      "name": "Museum Education",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "brera_ma"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "visual_culture",
+      "name": "Visual Culture",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "brera_ba",
+        "brera_ma"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "brand_identity",
+      "name": "Brand Identity & Brand Strategy",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "social_strategy",
+      "name": "Social Media Strategy",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "content_marketing",
+      "name": "Digital Communication & Content Marketing",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "advertising",
+      "name": "Web & Social Media Advertising",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "new_marketing",
+      "name": "New Marketing",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "social_marketing",
+      "name": "Social Media Marketing",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "google_ads_training",
+      "name": "Social Media Lab: Google Ads",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "radar"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "cultural_management",
+      "name": "Cultural Heritage Management",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "brera_ba"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "public_relations",
+      "name": "Public Relations",
+      "group": "knowledge",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [
+        "brera_ma"
+      ],
+      "status": "acquired_knowledge",
+      "superpower": false
+    },
+    {
+      "id": "editorial",
+      "name": "Digital Publishing",
+      "group": "hard",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "stakeholder",
+      "name": "Stakeholder Communication",
+      "group": "hard",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    },
+    {
+      "id": "adaptability",
+      "name": "Adaptability",
+      "group": "soft",
+      "desc": "Descrizione da completare sulla base delle fonti disponibili.",
+      "hard": [],
+      "knowledge": [],
+      "projects": [],
+      "origin_ids": [],
+      "status": "skill_claim_review",
+      "superpower": false
+    }
+  ],
+  "records": [
+    {
+      "id": "italiaonline",
+      "title": "Italiaonline",
+      "cat": "professional",
+      "label": "DIGITAL CONTENT / EDITORIAL",
+      "color": "#d8ff52",
+      "size": "big",
+      "primary": "Digital Content & Communication",
+      "summary": "Attività editoriali e di comunicazione digitale nell’ecosistema Italiaonline.",
+      "role": "Produzione e gestione di contenuti digitali, tra cui contributi per PGCasa Magazine e Tuttocittà. Dettagli delle responsabilità da completare sulla base del CV.",
+      "hard": [
+        "Digital Content",
+        "Copywriting",
+        "Editorial Content"
+      ],
+      "knowledge": [
+        "Digital Communication"
+      ],
+      "evidence": "Contenuti editoriali pubblicati; link e date da integrare.",
+      "order": 100,
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "kronoscope",
+      "year": 2022,
+      "order": 91,
+      "title": "Kronoscope",
+      "cat": "professional",
+      "label": "IMMERSIVE EXPERIENCE / UX",
+      "color": "#d8ff52",
+      "size": "big",
+      "primary": "Experience Design",
+      "summary": "Esperienza immersiva nella Cripta di San Sepolcro, presso la Veneranda Biblioteca Ambrosiana.",
+      "role": "Ricerca storico-artistica, architettura narrativa, progettazione del percorso del visitatore, sequenze di interazione, user flows, testi e specifiche operative per la componente tecnica. Collaborazione con il team di progetto.",
+      "hard": [
+        "UX Design",
+        "Interaction Design",
+        "User Flow Design",
+        "Information Architecture",
+        "UX Writing",
+        "Narrative Design"
+      ],
+      "knowledge": [
+        "Semiotics",
+        "Art History"
+      ],
+      "evidence": "Script progettuale, sequenze START/NEXT, struttura narrativa e specifiche delle interazioni.",
+      "verification": "review_details"
+    },
+    {
+      "id": "campus",
+      "order": 86,
+      "title": "L’Angolo di Zia Amaranta",
+      "cat": "professional",
+      "label": "OPERATIONS / PEOPLE COORDINATION",
+      "color": "#6d35ed",
+      "size": "medium",
+      "primary": "Project Management",
+      "summary": "Campus estivo per bambini, con attività educative e organizzazione operativa.",
+      "role": "Cogestione con la presidente dell’associazione per tre anni: organizzazione turni, presenze, comunicazione con famiglie, gestione delle attività e degli imprevisti. Circa 60 bambini a settimana, fino a 100 nei picchi; coordinamento di circa 10–15 animatori e volontari.",
+      "hard": [
+        "Team Coordination",
+        "Scheduling",
+        "Operational Management",
+        "Stakeholder Communication"
+      ],
+      "knowledge": [
+        "Educational Activities"
+      ],
+      "evidence": "Esperienza operativa diretta; numeri indicativi forniti per il campus.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "memphis",
+      "order": 89,
+      "title": "Memphis Milano / Gufram",
+      "cat": "professional",
+      "label": "DESIGN HERITAGE / CONTENT",
+      "color": "#ff895a",
+      "size": "medium",
+      "primary": "Content Strategy",
+      "summary": "Ricerca e valorizzazione del patrimonio del design.",
+      "role": "Ricerca storico-artistica e scrittura di contenuti dedicati a oggetti, designer e archivi storici, in collaborazione con Alessandra Coppa.",
+      "hard": [
+        "Research",
+        "Copywriting",
+        "Digital Storytelling"
+      ],
+      "knowledge": [
+        "Design History",
+        "Art History"
+      ],
+      "evidence": "Contenuti editoriali e materiali di ricerca; da integrare con link specifici.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "corrente",
+      "order": 88,
+      "title": "Fondazione Corrente",
+      "cat": "professional",
+      "label": "SOCIAL / CULTURAL COMMUNICATION",
+      "color": "#f6c9f0",
+      "size": "medium",
+      "primary": "Social Media Management",
+      "summary": "Comunicazione culturale rivolta anche a pubblici più giovani.",
+      "role": "Ideazione di rubriche e contenuti social e attività educative per bambini.",
+      "hard": [
+        "Content Planning",
+        "Copywriting",
+        "Audience Engagement"
+      ],
+      "knowledge": [
+        "Art History",
+        "Museum Education"
+      ],
+      "evidence": "Rubriche social e materiali didattici.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "materiali",
+      "order": 84,
+      "title": "Materiali di Estetica",
+      "cat": "professional",
+      "label": "WEBMASTER / EDITORIAL CMS",
+      "color": "#c9e6ff",
+      "size": "medium",
+      "primary": "Digital Publishing",
+      "summary": "Rivista accademica dell’Università degli Studi di Milano.",
+      "role": "Gestione del sito su Open Journal Systems, caricamento articoli e PDF, aggiornamento pagine, flussi di pubblicazione e interventi tecnici.",
+      "hard": [
+        "CMS Management",
+        "Digital Publishing",
+        "Editorial Workflow"
+      ],
+      "knowledge": [
+        "Digital Communication"
+      ],
+      "evidence": "Attività webmaster su Open Journal Systems.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "kids",
+      "order": 93,
+      "title": "Kids Art Factory",
+      "cat": "professional",
+      "label": "CREATIVE EDUCATION / WORKSHOPS",
+      "color": "#d8ff52",
+      "size": "big",
+      "primary": "Educational Experience Design",
+      "summary": "Laboratori artistici e attività creative progettati per il pubblico infantile e familiare.",
+      "role": "Ideazione di concept, progettazione di laboratori e attività, selezione di riferimenti artistici e organizzazione dell’esperienza.",
+      "hard": [
+        "Workshop Design",
+        "Creative Direction",
+        "Experience Design"
+      ],
+      "knowledge": [
+        "Art History",
+        "Museum Education"
+      ],
+      "evidence": "Progetti e materiali dei laboratori.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "stanze",
+      "order": 65,
+      "title": "Le Stanze della Follia",
+      "cat": "academic",
+      "label": "CURATORIAL / EXHIBITION PROJECT",
+      "color": "#d8c9ff",
+      "size": "medium",
+      "primary": "Exhibition Design",
+      "summary": "Progetto espositivo collegato all’esame di Museologia della magistrale.",
+      "role": "Attività di curatela, comunicazione, progettazione dell’allestimento, coordinamento e mediazione educativa.",
+      "hard": [
+        "Exhibition Design",
+        "Visual Communication",
+        "Project Coordination"
+      ],
+      "knowledge": [
+        "Museology & Museography"
+      ],
+      "evidence": "Materiali progettuali dell’esposizione.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "metaforo",
+      "order": 60,
+      "title": "MetaForo",
+      "cat": "academic",
+      "label": "MULTIMEDIA / DIGITAL HERITAGE",
+      "color": "#ffb18d",
+      "size": "medium",
+      "primary": "Multimedia Experience Design",
+      "summary": "Progetto nato dall’esame di Multimedialità per i Beni Culturali.",
+      "role": "Progetto formativo in ambito multimediale; dettaglio delle attività da integrare con gli elaborati originali.",
+      "hard": [
+        "Multimedia Concept"
+      ],
+      "knowledge": [
+        "Multimedia & Digital Heritage"
+      ],
+      "evidence": "Collegamento all’esame confermato; elaborati da integrare.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "biennale",
+      "order": 57,
+      "title": "Biennale Architettura",
+      "cat": "academic",
+      "label": "ARCHITECTURAL HERITAGE",
+      "color": "#c9e6ff",
+      "size": "medium",
+      "primary": "Architectural Research",
+      "summary": "Progetto collegato all’esame di architettura della triennale.",
+      "role": "Attività progettuale e di ricerca da descrivere nel dettaglio a partire dagli elaborati.",
+      "hard": [
+        "Research"
+      ],
+      "knowledge": [
+        "Architectural Heritage"
+      ],
+      "evidence": "Collegamento formativo confermato.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "patrimonio",
+      "order": 56,
+      "title": "Patrimonio da Salvare",
+      "cat": "academic",
+      "label": "WEB DESIGN / CULTURAL HERITAGE",
+      "color": "#e8dcff",
+      "size": "medium",
+      "primary": "Web Design",
+      "summary": "Progetto sviluppato nell’ambito dell’esame di Web Design della triennale.",
+      "role": "Progettazione web in ambito culturale; dettaglio da completare con il progetto originale.",
+      "hard": [
+        "Web Design"
+      ],
+      "knowledge": [
+        "Web Design",
+        "Cultural Heritage"
+      ],
+      "evidence": "Collegamento formativo confermato.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "yamaha",
+      "year": 2025,
+      "order": 73,
+      "title": "Yamaha — The Connection of Sound",
+      "cat": "academic",
+      "label": "BRAND STRATEGY / MASTER PROJECT",
+      "color": "#d8ff52",
+      "size": "medium",
+      "primary": "Brand Strategy",
+      "summary": "Project work del Master Radar Academy dedicato a Yamaha Music.",
+      "role": "Analisi del posizionamento, definizione di buyer personas e utilizzo di strumenti semiotici per la proposta strategica.",
+      "hard": [
+        "Brand Positioning",
+        "Buyer Personas",
+        "Strategic Analysis"
+      ],
+      "knowledge": [
+        "Brand Strategy",
+        "Semiotics",
+        "Digital Marketing"
+      ],
+      "evidence": "Project work del Master; progetto vincitore.",
+      "verification": "review_details"
+    },
+    {
+      "id": "versilia",
+      "order": 67,
+      "title": "Museo Versilia",
+      "cat": "academic",
+      "label": "MUSEUM CONCEPT / RESEARCH",
+      "color": "#f6c9f0",
+      "size": "medium",
+      "primary": "Museum Experience Design",
+      "summary": "Concept documentato per una sala storica del museo.",
+      "role": "Ricerca storico-artistica e iconografica, sviluppo di contenuti, testi e proposta di allestimento.",
+      "hard": [
+        "Curatorial Research",
+        "Exhibition Concept",
+        "Content Design"
+      ],
+      "knowledge": [
+        "Art History",
+        "Museology & Museography"
+      ],
+      "evidence": "Documento progettuale di 49 pagine; non presentato come allestimento realizzato.",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "artenatura",
+      "order": 64,
+      "title": "Arte e Natura",
+      "cat": "academic",
+      "label": "DIGITAL EXHIBITION / EDUCATION",
+      "color": "#ffb18d",
+      "size": "medium",
+      "primary": "Curatorial Design",
+      "summary": "Mostra digitale dei lavori degli alunni delle scuole primarie di Lazzate e Misinto.",
+      "role": "Curatela digitale, organizzazione in nove gallerie tematiche, selezione dei riferimenti artistici e progettazione dei contenuti.",
+      "hard": [
+        "Digital Curation",
+        "Visual Storytelling",
+        "Educational Content"
+      ],
+      "knowledge": [
+        "Art History",
+        "Museum Education"
+      ],
+      "evidence": "Elaborato digitale della mostra.",
+      "url": "https://canva.link/i75kh3u8hkbxc9m",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "manuale",
+      "order": 61,
+      "title": "Manuale per piccoli guerriglieri artisti",
+      "cat": "academic",
+      "label": "EDITORIAL / CREATIVE EDUCATION",
+      "color": "#d9caff",
+      "size": "medium",
+      "primary": "Educational Content Design",
+      "summary": "Manuale creativo con attività artistiche per bambini.",
+      "role": "Ideazione e proposta di attività laboratoriali e contenuti creativi.",
+      "hard": [
+        "Educational Content",
+        "Creative Writing"
+      ],
+      "knowledge": [
+        "Art History",
+        "Museum Education"
+      ],
+      "evidence": "Manuale progettuale.",
+      "url": "https://canva.link/wclunlu5biuosd2",
+      "verification": "review_details",
+      "year": null
+    },
+    {
+      "id": "portfolio",
+      "year": 2026,
+      "order": 50,
+      "title": "The Brief Was Me",
+      "cat": "case",
+      "label": "SELF-INITIATED / PRODUCT THINKING",
+      "color": "#24212e",
+      "size": "wide",
+      "primary": "Product Thinking",
+      "summary": "Il portfolio come esperimento di posizionamento professionale.",
+      "role": "Definizione del problema, ipotesi di posizionamento, progettazione di un’interfaccia che rende esplorabili competenze e prove. La misurazione dei risultati è ancora da impostare.",
+      "hard": [
+        "Problem Framing",
+        "Information Architecture",
+        "UX Strategy"
+      ],
+      "knowledge": [
+        "Digital Communication"
+      ],
+      "evidence": "Questo prototipo: ipotesi e progetto in evoluzione.",
+      "verification": "review_details"
+    },
+    {
+      "id": "storie",
+      "title": "STORIE (R)ESISTENTI",
+      "cat": "concept",
+      "primary": "Transmedia Experience Design",
+      "summary": "Concept educativo transmediale per la didattica della Resistenza; non realizzato come app.",
+      "year": 2022,
+      "verification": "confirmed_concept",
+      "order": 0
+    },
+    {
+      "id": "musei_como",
+      "title": "Musei Civici di Como",
+      "cat": "professional",
+      "primary": "Museum Communication",
+      "summary": "Esperienza museale; responsabilità e periodo da verificare.",
+      "verification": "details_pending",
+      "year": null,
+      "order": 0
+    },
+    {
+      "id": "hangar",
+      "title": "Pirelli HangarBicocca",
+      "cat": "professional",
+      "primary": "Cultural Experience",
+      "summary": "Esperienza professionale; dettagli da verificare con CV.",
+      "verification": "details_pending",
+      "year": null,
+      "order": 0
+    },
+    {
+      "id": "paesaggio",
+      "title": "Paesaggio Italia — La Repubblica",
+      "cat": "professional",
+      "primary": "Editorial Content",
+      "summary": "Testi per volumi curati da Alessandra Coppa.",
+      "verification": "details_pending",
+      "year": null,
+      "order": 0
+    },
+    {
+      "id": "just",
+      "title": "Consulente Just",
+      "cat": "professional",
+      "primary": "Customer Relationship Management",
+      "summary": "Consulenza prodotto, vendita diretta, gestione autonoma di appuntamenti e clienti.",
+      "verification": "details_pending",
+      "year": null,
+      "order": 0
+    }
+  ],
+  "relationships": [
+    {
+      "source": "experience",
+      "target": "kronoscope",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "experience",
+      "target": "kids",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "experience",
+      "target": "stanze",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "content",
+      "target": "memphis",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "content",
+      "target": "corrente",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "content",
+      "target": "materiali",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "project",
+      "target": "campus",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "project",
+      "target": "stanze",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "project",
+      "target": "kids",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "research",
+      "target": "kronoscope",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "research",
+      "target": "versilia",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "research",
+      "target": "memphis",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "social",
+      "target": "corrente",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "social",
+      "target": "kids",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "education",
+      "target": "kids",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "education",
+      "target": "campus",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "education",
+      "target": "artenatura",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "visual",
+      "target": "stanze",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "visual",
+      "target": "artenatura",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "visual",
+      "target": "versilia",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "brand",
+      "target": "yamaha",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "leadership",
+      "target": "campus",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "problem",
+      "target": "campus",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "problem",
+      "target": "kronoscope",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "problem",
+      "target": "portfolio",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "brera_ba",
+      "target": "aesthetic",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "brera_ma",
+      "target": "aesthetic",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "aesthetic",
+      "target": "artenatura",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "aesthetic",
+      "target": "stanze",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "systems",
+      "target": "kronoscope",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "systems",
+      "target": "yamaha",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "systems",
+      "target": "portfolio",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "initiative",
+      "target": "kids",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "initiative",
+      "target": "portfolio",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "communication",
+      "target": "campus",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "communication",
+      "target": "kronoscope",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "communication",
+      "target": "stanze",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "brera_ba",
+      "target": "art",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "brera_ma",
+      "target": "art",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "art",
+      "target": "kronoscope",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "art",
+      "target": "versilia",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "art",
+      "target": "memphis",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "art",
+      "target": "artenatura",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "brera_ba",
+      "target": "museology",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "brera_ma",
+      "target": "museology",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "museology",
+      "target": "stanze",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "museology",
+      "target": "versilia",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "brera_ma",
+      "target": "semiotics",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "semiotics",
+      "target": "kronoscope",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "semiotics",
+      "target": "yamaha",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "brera_ma",
+      "target": "multimedia",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "multimedia",
+      "target": "metaforo",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "brera_ba",
+      "target": "architecture",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "architecture",
+      "target": "biennale",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "brera_ba",
+      "target": "webdesign",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "webdesign",
+      "target": "patrimonio",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "radar",
+      "target": "marketing",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "marketing",
+      "target": "yamaha",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "radar",
+      "target": "consumer",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "radar",
+      "target": "data",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "radar",
+      "target": "automation",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "brera_ma",
+      "target": "psychology",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "canva",
+      "target": "artenatura",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "canva",
+      "target": "manuale",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "ojs",
+      "target": "materiali",
+      "type": "applied_in",
+      "why": "Collegamento presente nel prototipo; verificare attività specifica",
+      "status": "review_required"
+    },
+    {
+      "source": "brera_ma",
+      "target": "museum_education",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "brera_ba",
+      "target": "visual_culture",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "brera_ma",
+      "target": "visual_culture",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "radar",
+      "target": "brand_identity",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "radar",
+      "target": "social_strategy",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "radar",
+      "target": "content_marketing",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "radar",
+      "target": "advertising",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "radar",
+      "target": "new_marketing",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "radar",
+      "target": "social_marketing",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "radar",
+      "target": "google_ads_training",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "brera_ba",
+      "target": "cultural_management",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "brera_ma",
+      "target": "public_relations",
+      "type": "acquired_through",
+      "why": "",
+      "status": "documented"
+    },
+    {
+      "source": "multimedia",
+      "target": "metaforo",
+      "type": "studied_and_applied_in",
+      "why": "Progetto dell’esame di Multimedialità per i Beni Culturali",
+      "status": "documented"
+    },
+    {
+      "source": "museology",
+      "target": "stanze",
+      "type": "studied_and_applied_in",
+      "why": "Progetto dell’esame di Museologia della magistrale",
+      "status": "documented"
+    },
+    {
+      "source": "architecture",
+      "target": "biennale",
+      "type": "studied_and_applied_in",
+      "why": "Progetto collegato all’esame di architettura della triennale",
+      "status": "documented"
+    },
+    {
+      "source": "webdesign",
+      "target": "patrimonio",
+      "type": "studied_and_applied_in",
+      "why": "Progetto dell’esame di Web Design della triennale",
+      "status": "documented"
+    },
+    {
+      "source": "ojs",
+      "target": "materiali",
+      "type": "used_in",
+      "why": "Gestione CMS e pubblicazione editoriale",
+      "status": "documented"
+    }
+  ]
+}
